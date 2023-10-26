@@ -1,8 +1,11 @@
 # Frontend Mentor - QR code component
 
-![Design preview for the QR code component coding challenge](./design/desktop-preview.jpg)
+This is mu sumbit for the QR code challenge from Frontend Mentor.
 
-## Welcome! 👋
+
+
+
+## Here is the default text : 
 
 Thanks for checking out this front-end coding challenge.
 
