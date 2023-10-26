@@ -1,6 +1,6 @@
 # Frontend Mentor - QR code component
 
-This is mu sumbit for the QR code challenge from Frontend Mentor.
+This is my sumbit for the QR code challenge from Frontend Mentor.
 
 
 
