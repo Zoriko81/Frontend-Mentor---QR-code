@@ -16,27 +16,29 @@ body {
 
 .whiteBlock {
     background-color: white;
-    border-radius: 2rem;
+    border-radius: 1rem;
     padding: 1rem;
-    max-width:20rem;
-    max-height:150rem;
+    max-width:19rem;
 }
 
 img {
-    width: 100%;
-    border-radius: 3%;
+    max-width: 100%;
+    border-radius: 0.5em;
 }
 
 .whiteBlock h1{
     color: hsl(218, 44%, 22%);
-    padding-top: 1rem;
-    font-size: 1.4vmax;
+    padding: 1rem;
+    font-size: 1.4rem;
+    font-weight: 700;
+
 }
 
 .whiteBlock h2 {
     color: hsl(220, 15%, 55%);
-    font-weight: 500;
-    padding-top: 1rem;
-    font-size: 1vmax;
+    padding: 1rem;
+    padding-bottom: 1.5rem;
+    padding-top: 0.5rem;
+    font-size: 1rem;
     font-weight: bold;
 }
