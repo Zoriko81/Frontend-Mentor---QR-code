@@ -1,73 +1,42 @@
 * {
     margin: 0;
     padding: 0;
+    
 }
 
 body {
     background-color: hsl(212, 45%, 89%);
-    display: flex;
     font-family: "Outfit", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    display: grid;
-    grid-template-columns: 10% 30% 20% 30% 10%;
-    grid-template-rows: 1fr 4fr 1fr;
-    width: 100vw;
-    height: 100vh;
-
+    min-height:100vh;
 }
 
 .whiteBlock {
-    grid-column: 3 / 4;
-    grid-row: 2 / 2;
     background-color: white;
-    border-radius: 20px;
-    padding: 20px;
+    border-radius: 2rem;
+    padding: 1rem;
+    max-width:20rem;
+    max-height:150rem;
 }
 
-.whiteBlock img {
+img {
     width: 100%;
     border-radius: 3%;
 }
 
-.qrCode {
-    display: flex;
-    justify-content: center;
-}
-
-.text {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    padding-right: 3%;
-    padding-left: 3%;
-    padding-bottom: 7%;
-}
-
 .whiteBlock h1{
     color: hsl(218, 44%, 22%);
-    padding-top: 5%;
+    padding-top: 1rem;
     font-size: 1.4vmax;
 }
 
-.whiteBlock p {
+.whiteBlock h2 {
     color: hsl(220, 15%, 55%);
     font-weight: 500;
-    padding-top: 10%;
+    padding-top: 1rem;
     font-size: 1vmax;
     font-weight: bold;
-}
-
-@media screen and (max-width: 800px) {
-.whiteBlock {
-    grid-column: 2 / 5;
-}
-
-.whiteBlock h1{
-    font-size: 4vmax;
-}
-
-.whiteBlock p {
-    font-size: 2.7vmax;
-}
-
 }
